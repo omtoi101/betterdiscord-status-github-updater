@@ -7,3 +7,6 @@ AutoStartRichPresence set up
 probably best to have decent python knowledge
 know how AutoStartRichPresence works
 probably best to have basic json knowledge
+
+
+### I recomend that you compile it to an exe or change it over to a pyw file and stick it in shell:startup so you dont have to handle any of it!
