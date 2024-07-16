@@ -30,7 +30,7 @@ while True:
         if len(most_recent["name"]) > 27:
             most_recent["name"] = str(most_recent["name"])[:20] + '...'
     info['profiles'][0]['state'] = f'recent repo: {most_recent["name"].replace("-", " ")}'
-    info['profiles'][0]['button2Label'] = f'Too {most_recent["name"].replace("-", " ")}'
+    info['profiles'][0]['button2Label'] = f'To {most_recent["name"].replace("-", " ")}'
     info['profiles'][0]['button2URL'] = most_recent['url']
     json_object = json.dumps(info, indent=4)
     with open(AutoStartRichPresence_config_json_dir, 'w') as w:
